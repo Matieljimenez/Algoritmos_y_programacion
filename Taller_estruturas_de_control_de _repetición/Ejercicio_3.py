@@ -1,0 +1,10 @@
+a=97
+b=0
+while(a<1003):
+    if(a%2==0):
+        b=b+a
+        a=a+2
+        print(a)
+    else:
+        a=a+1
+print(b)
